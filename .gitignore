@@ -1,0 +1,15 @@
+# Ignore the massive node dependencies
+node_modules/
+
+# Ignore production build outputs
+dist/
+build/
+.next/
+
+# Ignore local environment/secret variables
+.env
+.env.local
+
+# Ignore system junk files
+.DS_Store
+Thumbs.db
