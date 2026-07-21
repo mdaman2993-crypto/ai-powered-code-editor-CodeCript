@@ -6,7 +6,7 @@ dist/
 build/
 .next/
 
-# Ignore local environment/secret variables
+# Ignore local environment
 .env
 .env.local
 
