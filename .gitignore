@@ -1,4 +1,4 @@
-# Ignore the massive node dependencies
+# Ignore the massive node dependencie
 node_modules/
 
 # Ignore production build outputs
