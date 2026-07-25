@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const nextConfig = {
   reactStrictMode: true,
   // Minimal turbopack config to avoid build-time conflict when a webpack
-  // customization is present. This keeps Turbopack enabled while allowing
+  // customization is present.This keeps Turbopack enabled while allowing
   // small webpack hooks to remain.
   turbopack: {},
   webpack: (config) => {
